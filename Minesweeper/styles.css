@@ -1,0 +1,59 @@
+.grid {
+  height: 660px;
+  width: 660px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: darkgrey;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+  min-width: 0px;
+  border: 1px solid black;
+  background-size: cover;
+}
+
+.mine {
+  background-image: url("https://marketplacecdn.yoyogames.com/images/assets/4425/icon/1473847111_large.jpg?1473847111");
+}
+
+.flagged {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Minesweeper_flag.svg");
+}
+
+.empty {
+  background-color: lightgray;
+}
+
+.one {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/ca/Minesweeper_1.svg");
+}
+
+.two {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/44/Minesweeper_2.svg");
+}
+
+.three {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/08/Minesweeper_3.svg");
+}
+
+.four {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4f/Minesweeper_4.svg");
+}
+
+.five {
+  background-image: url("https://commons.wikimedia.org/wiki/File:Minesweeper_5.svg");
+}
+
+.six {
+  background-image: url("https://commons.wikimedia.org/wiki/File:Minesweeper_6.svg");
+}
+
+.seven {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/56/Minesweeper_7.svg");
+}
+
+.eight {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0d/Minesweeper_8.svg");
+}
